@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "nemi",
+	"version": "${version}",
+	"name": "No Equip My Items!",
+	"description": "Removes the equip animation when using a item.",
+	"authors": [
+		"lowercasebtw"
+	],
+	"contact": {
+		"sources": "https://github.com/lowercasebtw/nemi",
+		"issues": "https://github.com/lowercasebtw/nemi/issues"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/nemi"
+			},
+			"update_checker": true
+		}
+	},
+	"license": "LGPL-2.1",
+	"icon": "assets/nemi/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"btw.lowercase.nemi.NoEquipMyItems"
+		]
+	},
+	"mixins": [
+		"nemi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"midnightlib": ">=1.5.5"
+	}
+}

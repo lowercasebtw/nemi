@@ -1,0 +1,7 @@
+{
+	"nemi.midnightconfig.title": "No Equip My Items Config",
+	"nemi.midnightconfig.EQUIP_ANIMATION": "Disable Equip Animation When",
+	"nemi.midnightconfig.enum.EquipAnimationEnum.ALL": "All/Everything",
+	"nemi.midnightconfig.enum.EquipAnimationEnum.ITEM_USE": "Item Usage",
+	"nemi.midnightconfig.enum.EquipAnimationEnum.OFF": "Disabled/Vanilla"
+}
