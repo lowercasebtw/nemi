@@ -3,7 +3,7 @@
 	"id": "nemi",
 	"version": "${version}",
 	"name": "No Equip My Items!",
-	"description": "Removes the equip animation when using a item.",
+	"description": "Remove the equip animation when using a item or remove it entirely!",
 	"authors": [
 		"lowercasebtw"
 	],
